@@ -1,0 +1,6 @@
+password: changeit
+algorithm: PBEWITHHMACSHA512ANDAES_256
+#algorithm: PBEWithMD5AndDES
+keyObtentionIterations: 1000
+saltGeneratorClassName: org.jasypt.salt.RandomSaltGenerator
+ivGeneratorClassName: org.jasypt.iv.RandomIvGenerator
